@@ -1,0 +1,12 @@
+MapView
+The mapView.png does not affect the performance of the neural network; it will simply be the image of the track. Use whatever you wish.
+
+MapCollision
+The mapCollision.png will be loaded by the program to define the walls, the car spawn area, and the endpoint of the map.
+
+Colors and descriptions:
+
+White (255, 255, 255): Area where cars can move
+Black (0, 0, 0): Area where there are walls cars can collide with 
+Red (255, 0, 0): Defines the car spawn points (two red points needed)
+Yellow (255, 255, 0): Defines the endpoint of the map

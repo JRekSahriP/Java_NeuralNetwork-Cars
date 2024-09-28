@@ -1,0 +1,19 @@
+{
+	"fps_limit": 60.0,
+	"generation_max_time": 120,
+	
+ 	"game_screen_width": 600,
+	"game_screen_height": 600,
+	
+	"config_menu_visible": true,
+	"config_menu_screen_width": 400,
+	"config_menu_screen_height": 350,
+	
+    "cars_quantity": 15,
+    "cars_rays_count": 50,
+    "cars_max_speed": 10,
+    
+    "mutation_chance_random_value": 10,
+    "mutation_chance_scale_value": 55,
+    "mutation_chance_add_value": 35
+}
