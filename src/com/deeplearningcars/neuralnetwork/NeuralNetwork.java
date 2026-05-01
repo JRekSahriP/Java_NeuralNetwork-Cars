@@ -73,7 +73,7 @@ public class NeuralNetwork {
 	
 	public void copyToInput(double[] vector) {
 		final Neuron[] neurons = inputLayer.getNeurons();
-		for (int i = 0; i < inputLayer.getNeuronsCount(); i++) {
+		for (int i = 0; i < inputLayer.getNeuronsCount() - BIAS; i++) {
 			neurons[i].setOutput(vector[i]);
 		}
 	}
