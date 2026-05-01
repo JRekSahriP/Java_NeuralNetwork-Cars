@@ -8,7 +8,6 @@ import java.util.List;
 
 import com.deeplearningcars.configuration.configfile.ConfigFile;
 import com.deeplearningcars.configuration.configfile.Configs;
-import com.deeplearningcars.game.scenery.Map;
 import com.deeplearningcars.utils.Constants;
 import com.deeplearningcars.utils.Utils;
 
