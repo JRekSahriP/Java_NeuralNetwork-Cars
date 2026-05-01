@@ -9,7 +9,7 @@ import com.deeplearningcars.configuration.configfile.ConfigFile;
 import com.deeplearningcars.configuration.configfile.Configs;
 import com.deeplearningcars.configuration.controllers.Keyboard;
 import com.deeplearningcars.game.Game;
-import com.deeplearningcars.game.entities.Cars;
+import com.deeplearningcars.game.entities.car.Cars;
 import com.deeplearningcars.game.scenery.Map;
 import com.deeplearningcars.game.ui.Camera;
 import com.deeplearningcars.utils.Constants;
@@ -35,9 +35,6 @@ public class Gameloop extends JPanel implements Runnable {
 		
 		Cars.loadCars(ConfigFile.getInteger(Configs.cars_quantity.toString()));
 		System.out.println("Cars Loaded");
-		
-		Cars.loadNeuralNetworks();
-		System.out.println("Neural Networks Loaded");
 		
 		Camera.setX(Map.mapWidth*Constants.UNIT_SIZE/2);
 		Camera.setY(Map.mapHeight*Constants.UNIT_SIZE/2);

@@ -2,7 +2,7 @@ package com.deeplearningcars.neuralnetwork;
 
 import com.deeplearningcars.configuration.configfile.ConfigFile;
 import com.deeplearningcars.configuration.configfile.Configs;
-import com.deeplearningcars.game.entities.Cars;
+import com.deeplearningcars.game.entities.car.Cars;
 
 public class Generation {
 	public static int generation = 0;

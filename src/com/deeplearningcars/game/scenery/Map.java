@@ -6,7 +6,7 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
 import com.deeplearningcars.configuration.ConfigurationPanel;
-import com.deeplearningcars.game.entities.Cars;
+import com.deeplearningcars.game.entities.car.Cars;
 import com.deeplearningcars.utils.Constants;
 import com.deeplearningcars.utils.Utils;
 

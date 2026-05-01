@@ -2,7 +2,7 @@ package com.deeplearningcars.game.ui;
 
 import com.deeplearningcars.configuration.ConfigurationPanel;
 import com.deeplearningcars.configuration.controllers.Keyboard;
-import com.deeplearningcars.game.entities.Cars;
+import com.deeplearningcars.game.entities.car.Cars;
 
 public class Camera {
 	private static int X;
@@ -31,8 +31,8 @@ public class Camera {
 		if(Keyboard.isPressedIgnoreCase('d')) {moveX(SPEED);}
 	}
 	private static void lockCar() {
-		X = Cars.getBestCar().getCenterX();
-		Y = Cars.getBestCar().getCenterY();
+		X = Cars.getBestCar().getBody().getCenterX();
+		Y = Cars.getBestCar().getBody().getCenterY();
 	}
 	
 	public static void setX(int x) {X = x;}
